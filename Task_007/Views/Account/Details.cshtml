@@ -1,0 +1,76 @@
+﻿@model Task_007.Data.Models.AccountModel
+
+<div>
+    <h4>AccountModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WebSiteUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WebSiteUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telephone1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telephone1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Revenue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Revenue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IndustryCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IndustryCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailAddress1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailAddress1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.owninguser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.owninguser)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
