@@ -29,7 +29,7 @@ namespace Task_007.Controllers
                 var account = _manager.GetAccountById(id);
                 if (account == null)
                 {
-                    return new HttpStatusCodeResult(404);
+                    return new HttpStatusCodeResult((int)HttpStatusCodeEnum.NotFound);
                 }             
                 else
                 {
@@ -39,7 +39,7 @@ namespace Task_007.Controllers
             catch (Exception ex)
             {
                 log.Error(ex.Message, ex);
-                return new HttpStatusCodeResult(505);
+                return new HttpStatusCodeResult((int)HttpStatusCodeEnum.InternalServerError);
                 throw;
             }
            
