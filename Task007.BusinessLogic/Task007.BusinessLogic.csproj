@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\HttpStatusCodeEnum.cs" />
     <Compile Include="Manager\AccountManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

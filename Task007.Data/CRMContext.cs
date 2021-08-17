@@ -13,7 +13,7 @@ namespace Task007.Data
 {
     public class CRMContext 
     {
-        private static readonly ILog log = LogManager.GetLogger("Task007.Data.DynamicCRMConnection");
+        private static readonly ILog log = LogManager.GetLogger(typeof(CRMContext));
 
       
         public static CrmOrganizationServiceContext CreateCRMContext()

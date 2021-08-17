@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Task007.BusinessLogic.Enum;
 using Task007.BusinessLogic.Manager;
 
 namespace Task_007.Controllers
 {
     public class AccountController : Controller
     {
-        private static readonly ILog log = LogManager.GetLogger("Task_007.Controllers.AccountController");
+        private static readonly ILog log = LogManager.GetLogger(typeof(AccountController));
         private readonly IAccountManager _manager; 
         public AccountController(IAccountManager manager)
         {
@@ -19,22 +20,26 @@ namespace Task_007.Controllers
         [ActionName("Details")]
         public ActionResult Details(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return new HttpStatusCodeResult((int)HttpStatusCodeEnum.BadRequest);
+            }
             try
             {
-                if (!string.IsNullOrEmpty(id))
+                var account = _manager.GetAccountById(id);
+                if (account == null)
                 {
-                    var account = _manager.GetAccountById(id);
-
-                    return View(account);
-                }
+                    return new HttpStatusCodeResult(404);
+                }             
                 else
                 {
-                    throw new Exception();
+                    return View(account);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                log.Error(ex.Message, ex);
+                return new HttpStatusCodeResult(505);
                 throw;
             }
            

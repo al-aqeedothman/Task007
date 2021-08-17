@@ -17,7 +17,8 @@ namespace Task007.BusinessLogic.Manager
     public  class AccountManager : IAccountManager
      {
         private readonly IAccountRepository _repository;
-    
+        private static readonly ILog log = LogManager.GetLogger(typeof(AccountManager));
+
         public AccountManager(IAccountRepository repository )
         {
             _repository = repository;
@@ -29,9 +30,9 @@ namespace Task007.BusinessLogic.Manager
             {
                 return _repository.GetAccountById(accountId);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                log.Error(ex.Message, ex);
                 throw;
             }
         

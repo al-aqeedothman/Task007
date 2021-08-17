@@ -24,3 +24,30 @@ C:\Users\azakarneh\source\repos\Task007.BusinessLogic\obj\Debug\Task007.Business
 C:\Users\azakarneh\source\repos\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.csproj.CopyComplete
 C:\Users\azakarneh\source\repos\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.dll
 C:\Users\azakarneh\source\repos\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.pdb
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.BusinessLogic.dll.config
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.BusinessLogic.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.BusinessLogic.pdb
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\log4net.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.Data.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Client.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.Data.pdb
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Task007.Data.dll.config
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\log4net.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.csproj.CopyComplete
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.dll
+C:\Users\azakarneh\Desktop\New folder\Task007\Task007.BusinessLogic\obj\Debug\Task007.BusinessLogic.pdb
